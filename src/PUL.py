@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn import svm
-from pulearn import BaggingPuClassifier,  WeightedElkanotoPuClassifier,ElkanotoPuClassifier
+from pulearn import ElkanotoPuClassifier
 from sklearn.metrics import f1_score
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.preprocessing import MinMaxScaler
@@ -30,7 +30,7 @@ print(len(np.where(YL[g] == 1)[0]))
 
 print_flag = False
 
-ori_acc, ori_deo, ori_f1, elkan_acc, elkan_deo, elkan_f1, fair_acc, fair_deo, fair_f1 = [], [], [], [], [], [], [], [], []
+fair_acc, fair_deo, fair_f1 = [], [], []
 for runs in range(10):
     idx_train = random.sample(range(len(x_data)), int(0.7 * len(x_data)))
     idx_test = list(set(range(len(x_data))) - set(idx_train))

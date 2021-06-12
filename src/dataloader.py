@@ -20,7 +20,7 @@ def add_intercept(x):
 
     """ Add intercept to the data before linear classification """
     m,n = x.shape
-    intercept = np.ones(m).reshape(m, 1) # the constant b
+    intercept = np.ones(m).reshape(m, 1)
     return np.concatenate((intercept, x), axis = 1)
 
 
