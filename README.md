@@ -1,6 +1,6 @@
 # fairpul
 
-Code for the ICDM 2021 submission DM562: Fairness-aware Model-agnostic Positive and Unlabeled Learning.
+Code for FAccT paper: Fairness-aware Model-agnostic Positive and Unlabeled Learning.
 
 
 
