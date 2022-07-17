@@ -22,5 +22,5 @@ Code for FAccT paper: Fairness-aware Model-agnostic Positive and Unlabeled Learn
 
 ### Usage
 
-We have indicated how each step in All.1 in our paper corresponds to the code in the comments. To reproduce the experimental results in Table 1, simply run `python PUL.py` . The datasets can be downloaded from the weblink in the paper. All the carefully tuned parameters have been specified in the code.
+We have indicated how each step in All.1 in our paper corresponds to the code in the comments. To reproduce the experimental results in Table 1, simply run `python PUL.py` . The datasets can be downloaded from the weblink in the paper. All the carefully tuned parameters have been specified in the paper.
 
