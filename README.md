@@ -1,6 +1,6 @@
 # fairpul
 
-Code for FAccT paper: Fairness-aware Model-agnostic Positive and Unlabeled Learning.
+Code for FAccT paper: Fairness-aware Model-agnostic Positive and Unlabeled Learning [Paper](https://arxiv.org/abs/2206.09346).
 
 
 
